@@ -1,6 +1,6 @@
 
 angular.module('frontend', [
-  'ngRoute',
+  'ngRoute','ngResource',
   'frontend.todo'
 ])
 .config(function ($routeProvider) {
